@@ -24,35 +24,35 @@
           <fieldset class="grupo">
             <div class="campo">
               <label for="nome"><strong>Nome</strong></label>
-              <input type="text" name="Name" id="nome" required>
+              <input type="text" name="Name" id="nome">
             </div>
             <!-- <div class="campo">
               <label for="sobrenome"><strong>Sobrenome</strong></label>
               <input type="text" name="Sobrenome" id="sobrenome" required>
             </div> -->
           </fieldset>
-          <div class="campo">
+          <!-- <div class="campo">
             <label for="email"><strong>Email</strong></label>
             <input type="email" name="Email" id="email">
-          </div>
+          </div> -->
           <div class="campo">
             <label for="data"><strong>Data</strong></label>
-            <input type="date" name="Date" id="date" required>
+            <input type="date" name="Date" id="date" >
           </div>
           <div class="campo">
             <label><strong>Qual campus deseja servir?</strong></label>
             <label>
-              <input type="radio" name="Campus" value="Oeste" required> 
+              <input type="radio" name="campus" value="Oeste" class="radio"> 
               IC Zona Oeste - Lapa
             </label>
             <label>
-              <input type="radio" name="Campus" value="Leste"> 
+              <input type="radio" name="campus" value="Leste" class="radio"> 
               IC Zona Leste - Penha
             </label>
           </div>
           <div class="campo">
               <label for="periodo"><strong>Período</strong></label>
-              <select id="periodo" required>
+              <select id="periodo" >
                 <option selected disabled value="">Selecione</option>
                 <option>Manhã</option>
                 <option>Noite</option>
@@ -70,8 +70,11 @@
           </button>
 
         </form>
-
-    </section>
+        
+        <iframe id="escala" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPsG3XgPNJDrLqH5O9z8cuTG-nO7ZpFnJ5-c7o6riC2rwesz6NlkcWla7CCi8HUBQ81wnfBA8SBGT3/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false">
+        </iframe>
+      </section>
+          
     <script src="./script.js"></script>
 
   </body>
